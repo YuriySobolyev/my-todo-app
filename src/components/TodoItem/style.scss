@@ -1,0 +1,62 @@
+.item {
+  display: flex;
+  width: calc(100% - 20px);
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #c8d0dd;
+  min-height: 40px;
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  padding: 0 0.5em;
+  border-radius: 0.25em;
+
+  p {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    text-align: left;
+    color: #052020;
+  }
+
+  .completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+
+  &:hover {
+    background: #e8f7f9;
+    box-shadow: 9px 9px 16px #c8d0dd, -9px -9px 16px #f0f0f0;
+  }
+}
+.completed {
+  background-color: #eef2f7;
+}
+
+.delete-btn {
+  background: center no-repeat url(./del.png);
+  background-size: 100%;
+  width: 25px;
+  height: 25px;
+  transition: all 0.5s ease-in-out;
+  border: 0px solid #c8d0dd;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+input[type="checkbox"].custom-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 2em;
+  height: 2em;
+  outline: none;
+  border: 1px solid #67959b;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked.custom-checkbox {
+  background: url(./checkbox-1.png) #e8f7f9;
+  background-size: 100%;
+  border: 0;
+}

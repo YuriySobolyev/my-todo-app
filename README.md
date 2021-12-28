@@ -2,6 +2,6 @@
 
 # Simple Todo App
 
-<img src="./TodoApp.png" alt="todo app>
+<img src="./TodoApp.png" alt="todo app">
 
 Simple Todo App

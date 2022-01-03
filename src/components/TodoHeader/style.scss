@@ -23,11 +23,12 @@
   font-size: 1em;
   border: 1px solid #c8d0dd;
   border-radius: 0.25em;
+  user-select: none;
 
-  &:focus-visible, &:focus, &:active, &:target, &:focus-within, &:hover{
-    border: 1px solid #c8d0dd;
-    outline: 0;
-  }
+//   &:focus-visible, &:focus, &:active, &:target, &:focus-within, &:hover{
+//     border: 1px solid #c8d0dd;
+//     outline: 0;
+//   }
 }
 .add-todo-btn {
   width: 40px;

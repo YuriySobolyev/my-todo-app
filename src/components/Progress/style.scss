@@ -1,0 +1,11 @@
+.progress-bar {
+  margin-top: -4px;
+  background: #ffe0e0;
+}
+
+.progress {
+  background: green;
+  height: 4px;
+  border-radius: 2px;
+  transition: all .5s ease-in-out;
+}

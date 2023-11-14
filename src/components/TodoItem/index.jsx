@@ -1,30 +1,6 @@
 import React from "react";
 import "./style.scss";
 
-<<<<<<< HEAD
-const TodoItem = ({ todo, editTodo, removeTodo }) => {
-  const handleChange = () => {
-    todo.completed = !todo.completed;
-    editTodo(todo);
-  };
-
-  const handleDelete = () => {
-    removeTodo(todo.id);
-  };
-
-  return (
-    <li className={`${todo.completed ? "item completed" : "item"}`}>
-      <input
-        type="checkbox"
-        checked={todo.completed}
-        onChange={handleChange}
-        className="custom-checkbox"
-      />
-      <p className={`${todo.completed ? "completed" : "non"}`}>{todo.title}</p>
-      <button className="delete-btn" onClick={handleDelete}></button>
-    </li>
-  );
-=======
 const TodoItem = ({todo, editTodo, removeTodo, index}) => {
     const handleChange = () => {
         todo.completed = !todo.completed;
@@ -60,7 +36,6 @@ const TodoItem = ({todo, editTodo, removeTodo, index}) => {
             </div>
         </li>
     );
->>>>>>> b5adb8d (redesign)
 };
 
 export default TodoItem;

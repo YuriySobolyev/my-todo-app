@@ -1,25 +1,5 @@
 import React from "react";
 import TodoItem from "../TodoItem";
-<<<<<<< HEAD
-
-const TodoList = ({ todos, removeTodo, editTodo }) => {
-  return (
-    <div>
-      <ul>
-        {todos.map((todo, i) => {
-          return (
-            <TodoItem
-              key={i}
-              todo={todo}
-              removeTodo={removeTodo}
-              editTodo={editTodo}
-            />
-          );
-        })}
-      </ul>
-    </div>
-  );
-=======
 import ProgressBar from "../Progress";
 
 const TodoList = ({todos, removeTodo, editTodo,}) => {
@@ -48,7 +28,6 @@ const TodoList = ({todos, removeTodo, editTodo,}) => {
             </div>
         </div>
     );
->>>>>>> b5adb8d (redesign)
 };
 
 export default TodoList;
